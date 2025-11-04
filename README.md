@@ -41,11 +41,14 @@ cd HideGoogleVoiceMessaging
 
 ## How It Works
 
-The module uses multiple layers of protection:
+Hides views before they attach to the window
 
-1. **Pre-hiding** - Hides views before they attach to the window
-2. **Measure blocking** - Prevents message views from being measured
-3. **Draw blocking** - Prevents message views from being rendered
-4. **View interception** - Blocks views with message-related content from being added
-5. **Continuous monitoring** - Checks every 50ms to ensure views stay hidden
-6. **Notification blocking** - Prevents messaging notifications
+- Prevents message views from being measured
+
+- Prevents message views from being rendered
+
+- Blocks views with message-related content from being added
+
+- Checks every 50ms to ensure views stay hidden
+
+- Prevents messaging notifications
