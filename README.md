@@ -14,7 +14,7 @@ LSPosed module to hide the messaging functionality from Google Voice, keeping on
 
 - Rooted Android device
 - [LSPosed Framework](https://github.com/LSPosed/LSPosed) installed
-- Google Voice app (official Play Store version)
+- Google Voice app (working on version 2025.10.19.826039865)
 
 ## Installation
 
