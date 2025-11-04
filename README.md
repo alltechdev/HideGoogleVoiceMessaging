@@ -30,7 +30,7 @@ LSPosed module to hide the messaging functionality from Google Voice, keeping on
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/HideGoogleVoiceMessaging.git
+git clone https://github.com/alltechdev/HideGoogleVoiceMessaging.git
 cd HideGoogleVoiceMessaging
 
 # Build the APK
