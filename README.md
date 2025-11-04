@@ -41,7 +41,7 @@ cd HideGoogleVoiceMessaging
 
 ## How It Works
 
-Hides views before they attach to the window
+- Hides views before they attach to the window
 
 - Prevents message views from being measured
 
