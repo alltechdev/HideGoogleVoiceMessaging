@@ -1,0 +1,37 @@
+Hide Google Voice Messaging - Installation Guide
+================================================
+
+REQUIREMENTS:
+- Rooted Android device
+- LSPosed Framework installed
+- Google Voice app (official Play Store version)
+
+INSTALLATION:
+1. Install HideVoiceMessaging.apk
+2. Open LSPosed Manager
+3. Go to Modules tab
+4. Enable "Hide Voice Messaging"
+5. Tap the module and check "Google Voice" in scope
+6. Reboot device
+
+WHAT IT DOES:
+✓ Hides Messages tab from bottom navigation
+✓ Blocks message notifications
+✓ Blocks message toasts/banners
+✓ Keeps Calls and Voicemail fully functional
+
+VERIFICATION:
+After reboot, open Google Voice. You should only see:
+- Calls tab
+- Voicemail tab
+- Settings
+
+The Messages tab will be completely hidden with no flickering.
+
+TROUBLESHOOTING:
+- If Messages tab still appears: Ensure module is enabled in LSPosed and you rebooted
+- Check LSPosed logs for "HideVoiceMsg" entries
+- Make sure Google Voice is selected in module scope
+
+Module Version: 1.0
+Target: Google Voice (all versions)
