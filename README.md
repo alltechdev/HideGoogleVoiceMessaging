@@ -4,11 +4,11 @@ LSPosed module to hide the messaging functionality from Google Voice, keeping on
 
 ## Features
 
-- ✅ Hides Messages tab from bottom navigation (no flickering)
-- ✅ Blocks message notifications
-- ✅ Blocks message toasts/banners
-- ✅ Keeps Calls and Voicemail fully functional
-- ✅ Multi-layer blocking for seamless experience
+- Hides Messages tab from bottom navigation (no flickering)
+- Blocks message notifications
+- Blocks message toasts/banners
+- Keeps Calls and Voicemail fully functional
+- Multi-layer blocking for seamless experience
 
 ## Requirements
 
@@ -25,15 +25,6 @@ LSPosed module to hide the messaging functionality from Google Voice, keeping on
 5. Enable **Hide Voice Messaging**
 6. Tap the module and check **Google Voice** in scope
 7. **Reboot** your device
-
-## Verification
-
-After reboot, open Google Voice. You should only see:
-- Calls tab
-- Voicemail tab
-- Settings
-
-The Messages tab will be completely hidden.
 
 ## Building from Source
 
@@ -58,30 +49,3 @@ The module uses multiple layers of protection:
 4. **View interception** - Blocks views with message-related content from being added
 5. **Continuous monitoring** - Checks every 50ms to ensure views stay hidden
 6. **Notification blocking** - Prevents messaging notifications
-
-## Troubleshooting
-
-**Messages tab still appears:**
-- Ensure the module is enabled in LSPosed
-- Verify Google Voice is selected in module scope
-- Make sure you rebooted after enabling
-
-**Check logs:**
-```bash
-adb logcat | grep HideVoiceMsg
-```
-
-You should see entries like:
-```
-HideVoiceMsg: Loaded into Google Voice
-HideVoiceMsg: Hooked View.onAttachedToWindow
-HideVoiceMsg: Pre-hid message view before attach: Messages
-```
-
-## License
-
-MIT License - See [LICENSE](LICENSE) file for details
-
-## Disclaimer
-
-This module is for personal use only. Use at your own risk.
